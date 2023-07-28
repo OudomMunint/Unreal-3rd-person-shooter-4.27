@@ -31,6 +31,12 @@
 
 ### Featuring `AMD FSR 2.1`, `Bots` and `Guns!` <a href="https://www.dropbox.com/sh/iaq1bsasgaz5znd/AABZkdeA_N6LC4kTpRVe0Af3a?dl=1">Download here</a>
 
+### Upcoming features
+
+- [ ] Add FSR 1 for Mac
+- [ ] Update DLSS to DLSS 2.3 or DLSS 3
+- [ ] Add graphics options for DLSS or FSR
+
 <img src="img1.png" width="900"/> <hr/>
 <img src="tps.png" width="900"/> <hr/>
 <img src="img2.png" width="900"/> <hr/>
