@@ -12,6 +12,7 @@
 | OS                | Windows 10 or macOS 10.12        | Windows 10 or macOS 10.15       |
 
 ‼️ Apple silicon isn't supported `M1` & `M2` SKUs <br>
+‼️ For now `FSR 2` Doesn't work on macOS 13+ use `r.FidelityFX.FSR2.Enabled 0` to disable FSR<br>
 ‼️ DLSS only supprts `RTX 20 Series` and newer. <br>
 ‼️ Use `r.FidelityFX.FSR2.EnableFP16OnNvDX11` to enable half precision mode if GPU < `Maxwell` / `GCN 1.0`
 
