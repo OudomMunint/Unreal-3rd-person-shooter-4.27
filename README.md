@@ -1,6 +1,8 @@
 # 3rd Person Shooter (still thinking of a name)
 
-# Maintenance: ![maintenance-status](https://img.shields.io/badge/maintenance-as--is-yellow.svg)
+## Maintenance: ![maintenance-status](https://img.shields.io/badge/maintenance-as--is-yellow.svg)
+
+## Release Pipeline: [![UE Release](https://github.com/OudomMunint/Unreal-3rd-person-shooter-4.27/actions/workflows/release.yml/badge.svg)](https://github.com/OudomMunint/Unreal-3rd-person-shooter-4.27/actions/workflows/release.yml)
 
 # Recommened Specs
 | Specification     | Minimum                          | Recommended                     |
