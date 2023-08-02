@@ -36,7 +36,7 @@
 ### Upcoming features
 
 - [ ] Add FSR 1 for Mac
-- [ ] Update DLSS to DLSS 2.3 or DLSS 3
+- [X] Update DLSS to DLSS 2.3 or DLSS 3
 - [ ] Add graphics options for DLSS or FSR
 
 <img src="img1.png" width="900"/> <hr/>
