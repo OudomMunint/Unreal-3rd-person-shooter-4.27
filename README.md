@@ -1,6 +1,6 @@
 # 3rd Person Shooter (still thinking of a name)
 
-## Maintenance: ![maintenance-status](https://img.shields.io/badge/maintenance-as--is-yellow.svg)
+## Maintenance: ![maintenance-status](https://img.shields.io/badge/maintenance-passively--maintained-yellowgreen.svg)
 
 ## Release Pipeline: [![UE Release](https://github.com/OudomMunint/Unreal-3rd-person-shooter-4.27/actions/workflows/release.yml/badge.svg)](https://github.com/OudomMunint/Unreal-3rd-person-shooter-4.27/actions/workflows/release.yml)
 
@@ -16,7 +16,8 @@
 ‼️ Apple silicon isn't supported `M1` & `M2` SKUs <br>
 ‼️ For now `FSR 2` Doesn't work on macOS 13+ use `r.FidelityFX.FSR2.Enabled 0` to disable FSR<br>
 ‼️ DLSS only supprts `RTX 20 Series` and newer. <br>
-‼️ Use `r.FidelityFX.FSR2.EnableFP16OnNvDX11` to enable half precision mode if GPU < `Maxwell` / `GCN 1.0`
+‼️ Use `r.FidelityFX.FSR2.EnableFP16OnNvDX11` to enable half precision mode if GPU < `Maxwell` / `GCN 1.0` <br>
+‼️ `UE 5.2.1` will not launch because of `FSR 2.2.1` <br>
 
 # FSR commands
 | Commands                                | Actions                          |
@@ -35,8 +36,8 @@
 
 ### Upcoming features
 
-- [ ] Add FSR 1 for Mac
 - [X] Update DLSS to DLSS 2.3 or DLSS 3
+- [ ] Add FSR 1 for Mac
 - [ ] Add graphics options for DLSS or FSR
 
 <img src="img1.png" width="900"/> <hr/>
