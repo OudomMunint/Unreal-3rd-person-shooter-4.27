@@ -5,8 +5,7 @@ on:
     branches: [ "main" ]
   pull_request:
     branches: [ "main" ]
-    tags:
-      - '*'
+
 permissions:
   contents: write
   
@@ -25,4 +24,4 @@ jobs:
         uses: ncipollo/release-action@v1.12.0
         with:
           artifacts: "react-github-actions-build"
-          tag: v1.4.5
+          tag: v1.4.6
