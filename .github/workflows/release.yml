@@ -24,4 +24,4 @@ jobs:
         uses: ncipollo/release-action@v1.12.0
         with:
           artifacts: "react-github-actions-build"
-          tag: v1.4.6
+          tag: v1.4.7
