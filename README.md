@@ -32,17 +32,17 @@
 
 # Optimization
 #### These Settings were tested on an MX550 resulting in 54fps min and 60fps max @1080p
-- Resolution Scale: 100% if TSR or FSR is off
-- View Distance: Near, the map is small so it doesn't matter
-- Anti-Aliasing: High, it's the best balance between quality and performance
-- Post Processing: Medium, High and above enableds DoF which can be taxing
-- Shadows: High, Allows soft shadows & volumetric shadows
-- Global Illumination: High (Lumen), it's the best balance between quality and performance
-- Reflections: Epic, Lumen is really performant nowadays
-- Textures: Low = 1GB, Medium = 2-3GB, High = 4GB, Epic = 6GB
-- Effects: High, it's the best balance between quality and performance
-- Foliage: Low, There's no foliage
-- Shading: Epic, no performance cost until Cinematic
+- `Resolution Scale`: `100%` if TSR or FSR is off
+- `View Distance`: `Near`, the map is small so it doesn't matter
+- `Anti-Aliasing`: `High`, it's the best balance between quality and performance
+- `Post Processing`: `Medium`, High and above enableds DoF which can be taxing
+- `Shadows`: `High` Allows soft shadows & volumetric shadows
+- `Global Illumination`: `High` (Lumen), it's the best balance between quality and performance
+- `Reflections`: `Epic`, Lumen is really performant nowadays
+- `Textures`: Low = 1GB, Medium = 2-3GB, High = 4GB, Epic = 6GB
+- `Effects`: `High`, it's the best balance between quality and performance
+- `Foliage`: `Low`, There's no foliage
+- `Shading`: `Epic`, no performance cost until Cinematic
 
 ### Made with `Unreal Engine 4.27`, compatible with `Unreal Engine 5.0+`
 
