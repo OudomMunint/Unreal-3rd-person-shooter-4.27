@@ -11,6 +11,7 @@
 | RAM               | 8GB                              | 16GB or higher                  |
 | Storage           | Nvme SSD5GB of free space        | Nvme SSD5GB of free space       |
 | GPU               | Intel Iris Xe 96EU               | GTX 1050 or RX 550              |
+| Shader Model      | 5.0+                             | 6+ for VSM, Lumen etc           |
 | OS                | Windows 10 or macOS 10.12        | Windows 10 or macOS 10.15       |
 
 ‼️ Apple silicon isn't supported `M1` & `M2` SKUs <br>
