@@ -14,6 +14,14 @@
 			"SupportedTargetPlatforms": [
 				"Win64"
 			]
+		},
+		{
+			"Name": "FSR",
+			"Enabled": false
+		},
+		{
+			"Name": "MobileFSR",
+			"Enabled": true
 		}
 	]
 }
