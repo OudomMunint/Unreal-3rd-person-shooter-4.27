@@ -19,8 +19,11 @@
 ‼️ DLSS only supprts `RTX 20 Series` and newer. <br>
 ‼️ Use `r.FidelityFX.FSR2.EnableFP16OnNvDX11` to enable half precision mode if GPU < `Maxwell` / `GCN 1.0` <br>
 ‼️ `UE 5.2.1` will not launch because of `FSR 2.2.1` <br>
+‼️ For now macOS platform can only use `FSR 1.0` <br>
 
 # FSR commands
+- For mac users: replace `r.FidelityFX.FSR2` with `r.FidelityFX.FSR1`
+
 | Commands                                | Actions                          |
 |-----------------------------------------|----------------------------------|
 | `r.FidelityFX.FSR2.Enabled 0`           | Turn FSR 2 `Off`                 |
@@ -52,7 +55,7 @@
 ### Upcoming features
 
 - [X] Update DLSS to DLSS 2.3 or DLSS 3
-- [ ] Add FSR 1 for Mac
+- [X] Add FSR 1 for Mac
 - [ ] Add graphics options for DLSS or FSR
 
 <img src="img1.png" width="900"/> <hr/>
