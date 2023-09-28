@@ -9,10 +9,19 @@
 |-------------------|----------------------------------|---------------------------------|
 | CPU               | i7-3770K or Ryzen 3200G          | i7-8750H or Ryzen 5 4600H       |
 | RAM               | 8GB                              | 16GB or higher                  |
-| Storage           | Nvme SSD5GB of free space        | Nvme SSD5GB of free space       |
+| Storage           | Nvme SSD 5GB of free space       | Nvme SSD 5GB of free space      |
 | GPU               | Intel Iris Xe 96EU               | GTX 1050 or RX 550              |
 | Shader Model      | 5.0+                             | 6+ for VSM, Lumen etc           |
 | OS                | Windows 10 or macOS 10.12        | Windows 10 or macOS 10.15       |
+
+# Recommened Specs Apple Silicon
+| Specification     | Minimum                          | Recommended                     |
+|-------------------|----------------------------------|---------------------------------|
+| CPU               | Apple M1 8 Core CPU (4E/4P)      | Apple M1 Pro 8 Core CPU (6P/2E) |
+| RAM               | 8GB                              | 16GB or higher                  |
+| Storage           | Nvme SSD 5GB of free space       | Nvme SSD 5GB of free space      |
+| GPU               | Apple M1 7 or 8 Core GPU         | Apple M1 Pro 14 Core GPU        |
+| OS                | macOS 13.0                       | macOS 13.6                      |
 
 ~~‼️ Apple silicon isn't supported `M1` & `M2` SKUs <br>~~
 ‼️ Apple silicon is now supported with `macOS 13.0+` and `Unreal Engine 5.1.1+`
