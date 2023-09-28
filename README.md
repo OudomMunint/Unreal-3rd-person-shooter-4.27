@@ -14,12 +14,14 @@
 | Shader Model      | 5.0+                             | 6+ for VSM, Lumen etc           |
 | OS                | Windows 10 or macOS 10.12        | Windows 10 or macOS 10.15       |
 
-‼️ Apple silicon isn't supported `M1` & `M2` SKUs <br>
+~~‼️ Apple silicon isn't supported `M1` & `M2` SKUs <br>~~
+‼️ Apple silicon is now supported with `macOS 13.0+` and `Unreal Engine 5.1.1+`
+‼️ Mac compatibility tested on `2023 MacBook Pro 14" M2 Pro (10 core CPU + 16 Core GPU)` & `2021 MacBookPro 16" M1 Max (10 core GPU + 32 Core GPU)`
 ‼️ For now `FSR 2` Doesn't work on macOS 13+ use `r.FidelityFX.FSR2.Enabled 0` to disable FSR<br>
 ‼️ DLSS only supprts `RTX 20 Series` and newer. <br>
 ‼️ Use `r.FidelityFX.FSR2.EnableFP16OnNvDX11` to enable half precision mode if GPU < `Maxwell` / `GCN 1.0` <br>
 ‼️ `UE 5.2.1` will not launch because of `FSR 2.2.1` <br>
-‼️ For now macOS platform can only use `FSR 1.0` <br>
+‼️ For now macOS platforms can only use `FSR 1.0` & `FSR Mobile` <br>
 
 # FSR commands
 - For mac users: replace `r.FidelityFX.FSR2` with `r.FidelityFX.FSR1`
