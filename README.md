@@ -24,8 +24,9 @@
 | OS                | macOS 13.0                       | macOS 13.6                      |
 
 ~~‼️ Apple silicon isn't supported `M1` & `M2` SKUs <br>~~
-‼️ Apple silicon is now supported with `macOS 13.0+` and `Unreal Engine 5.1.1+`
-‼️ Mac compatibility tested on `2023 MacBook Pro 14" M2 Pro (10 core CPU + 16 Core GPU)` & `2021 MacBookPro 16" M1 Max (10 core GPU + 32 Core GPU)`
+~~‼️ Apple silicon is now supported with `macOS 13.0+` and `Unreal Engine 5.1.1+`~~ <br>
+‼️ Apple silicon is now supported with `macOS 13.0+` and `Unreal Engine 5.2+` <br>
+‼️ Mac compatibility tested on `2023 MacBook Pro 14" M2 Pro (10 core CPU + 16 Core GPU)` <br>& `2021 MacBookPro 16" M1 Max (10 core GPU + 32 Core GPU)` <br>
 ‼️ For now `FSR 2` Doesn't work on macOS 13+ use `r.FidelityFX.FSR2.Enabled 0` to disable FSR<br>
 ‼️ DLSS only supprts `RTX 20 Series` and newer. <br>
 ‼️ Use `r.FidelityFX.FSR2.EnableFP16OnNvDX11` to enable half precision mode if GPU < `Maxwell` / `GCN 1.0` <br>
@@ -59,15 +60,17 @@
 - `Foliage`: `Low`, There's no foliage
 - `Shading`: `Epic`, no performance cost until Cinematic
 
-### Made with `Unreal Engine 4.27`, compatible with `Unreal Engine 5.0+`
+### Started with `Unreal Engine 4.27`, now developing with `Unreal Engine 5.0+`
 
-### Featuring `AMD FSR 2.1`, `Bots` and `Guns!` <a href="https://www.dropbox.com/sh/iaq1bsasgaz5znd/AABZkdeA_N6LC4kTpRVe0Af3a?dl=1">Download here</a>
+### Featuring `AMD FSR 2.2.1`, `Bots` and `Guns!` <a href="https://www.dropbox.com/sh/iaq1bsasgaz5znd/AABZkdeA_N6LC4kTpRVe0Af3a?dl=1">Download here</a>
 
 ### Upcoming features
 
 - [X] Update DLSS to DLSS 2.3 or DLSS 3
 - [X] Add FSR 1 for Mac
 - [ ] Add graphics options for DLSS or FSR
+- [ ] Update base engine to 5.2.0 for native apple silicon support
+- [ ] Update base engine to 5.3.0 for navite apple silicon supoort for lumen and nanite
 
 <img src="img1.png" width="900"/> <hr/>
 <img src="tps.png" width="900"/> <hr/>
