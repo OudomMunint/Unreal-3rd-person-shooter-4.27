@@ -7,6 +7,9 @@
 *.o
 *.obj
 
+# Mac OS X generated files
+*.DS_Store
+
 # Precompiled Headers
 *.gch
 *.pch
