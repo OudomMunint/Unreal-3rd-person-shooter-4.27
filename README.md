@@ -11,9 +11,10 @@
 | CPU               | i7-3770K or Ryzen 3200G          | i7-8750H or Ryzen 5 4600H       |
 | RAM               | 8GB                              | 16GB or higher                  |
 | Storage           | Nvme SSD 5GB of free space       | Nvme SSD 5GB of free space      |
-| GPU               | Intel Iris Xe 96EU               | GTX 1050 Ti or RX 560              |
+| GPU               | Intel Iris Xe 96EU               | GTX 1050 Ti or RX 560           |
 | Shader Model      | 5.0+                             | 6+ for VSM, Lumen etc           |
-| OS                | Windows 10 or macOS 10.12        | Windows 10 or macOS 10.15       |
+| API               | DX11 or Vulkan                   | DX12 or Vulkan                  |
+| OS                | Windows 10 or macOS 10.12        | Windows 11 or macOS 10.15       |
 
 # Recommened Specs Apple Silicon
 | Specification     | Minimum                          | Recommended                     |
@@ -22,6 +23,7 @@
 | RAM               | 8GB                              | 16GB or higher                  |
 | Storage           | Nvme SSD 5GB of free space       | Nvme SSD 5GB of free space      |
 | GPU               | Apple M1 7 or 8 Core GPU         | Apple M1 Pro 14 Core GPU        |
+| API               | Metal 2.4                        | Metal 3                         |
 | OS                | macOS 13.0                       | macOS 14                        |
 
 # Recommended Specs Intel Macs
@@ -32,6 +34,7 @@
 | Storage           | Nvme SSD 5GB of free space       | Nvme SSD 5GB of free space      |
 | GPU               | Radeon Pro 455 2GB               | Radeon Pro 560X 4GB             |
 | Shader Model      | 5.0+                             | 6+ for VSM, Lumen etc           |
+| API               | Metal 2                          | Metal 2                         |
 | OS                | macOS 10.12                      | macOS 10.15                     |
 
 # Notes
@@ -79,17 +82,28 @@
 - `Shading`: `Epic`, no performance cost until Cinematic
 
 ### Downloads 
-- <b>Windows_x86_64:</b> <a href="https://www.dropbox.com/sh/iaq1bsasgaz5znd/AABZkdeA_N6LC4kTpRVe0Af3a?dl=1">Download here</a>
-- <b>macOS_x86 (Intel):</b> Coming soon
-- <b>macOS_arm64 (Apple Silicon):</b> Coming soon
+
+- <b>v1.0 Windows_x86_64:</b> <a href="https://www.dropbox.com/sh/iaq1bsasgaz5znd/AABZkdeA_N6LC4kTpRVe0Af3a?dl=1">Download here</a>
+- <b>v2.0 Windows_x86_64:</b> <a href="https://www.dropbox.com/scl/fo/sv01yicixj3jxhf2iqp9r/AF35lhdCMbRm5VVAfNO4n8M?rlkey=zt1ijovaqo47ev99y9fi2qrtt&st=vthjub3p&dl=0">Download here</a>
+- <b>v2.0 macOS_x86 (Intel):</b> <a href="https://www.dropbox.com/scl/fi/5rqerzjudf1ixl9216tx3/DESN2600Test-Mac-Shipping-10.10.23-PM.zip?rlkey=jer5ajepx85zmj245zzttzdai&st=dy0w213b&dl=0">Download here</a>
+- <b>v2.0 macOS_arm64 (Apple Silicon):</b> <a href="https://www.dropbox.com/scl/fi/5rqerzjudf1ixl9216tx3/DESN2600Test-Mac-Shipping-10.10.23-PM.zip?rlkey=jer5ajepx85zmj245zzttzdai&st=dy0w213b&dl=0">Download here</a>
+
+  After downloading, extract the zip file and run the executable.
+  If you're on macOS, you might need to allow the app to run in `System Preferences > Security & Privacy` On Windows, you might need to allow the app to run in `Windows Security` prompt.
+
+### Download notes
+- `FSR 2` is only available on Windows v1.0.
+- `v1.0` is built with `Unreal Engine 5.0.3`.
+- `v2.0` is built with `Unreal Engine 5.4.4` with native Apple Silicon support.
+- `v1.0` on Windows uses DX11, `v2.0` uses DX12 & Metal 3 for macOS.
 
 ### Upcoming features
 
 - [X] ~~- Update DLSS to DLSS 2.3 or DLSS 3.~~
 - [X] Add FSR 1 for Mac.
 - [ ] Add graphics options for ~~- DLSS~~ and FSR.
-- [ ] Update base engine to 5.2.0 for native apple silicon support.
-- [ ] Update base engine to 5.3.0 for navite apple silicon supoort for lumen and nanite.
+- [X] Update base engine to 5.2.0 for native apple silicon support.
+- [X] Update base engine to 5.3.0 for navite apple silicon supoort for lumen and nanite.
 
 <img src="img1.png" width="900"/> <hr/>
 <img src="tps.png" width="900"/> <hr/>
