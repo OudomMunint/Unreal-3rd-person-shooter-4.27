@@ -15,6 +15,10 @@
 		{
 			"Name": "MobileFSR",
 			"Enabled": false
-		},
+		}
+	],
+	"TargetPlatforms": [
+		"Windows",
+		"Mac"
 	]
 }
