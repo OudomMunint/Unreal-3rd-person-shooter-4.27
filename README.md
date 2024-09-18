@@ -87,17 +87,20 @@
 - `Shading`: `Epic`, no performance cost until Cinematic.
 - `Landscape`: `Epic`, no performance cost until Cinematic.
 
+> [!TIP]
+> <br> You can use the performance overlay to see the performance impact of each setting in real-time.
+> <br> To do so go to `Options > Graphics > Performance Overlay`.
+
 > [!CAUTION]
-> Setting render resolution lower than 30% may cause visual artifacts.
-> Setting Global Illumination to medium will disable Lumen GI and Lumen Reflections.
-> Setting Effects to High or lower will make the scene become dark.
+> <br> Setting render resolution lower than 30% may cause visual artifacts.
+> <br> Setting Global Illumination to medium will disable Lumen GI and Lumen Reflections.
+> <br> Setting Effects to High or lower will make the scene become dark.
 
 ### Downloads 
 
 - <b>v1.0 Windows_x86_64:</b> <a href="https://www.dropbox.com/sh/iaq1bsasgaz5znd/AABZkdeA_N6LC4kTpRVe0Af3a?dl=1">Download here</a>
-- <b>v2.0 Windows_x86_64:</b> <a href="https://www.dropbox.com/scl/fo/sv01yicixj3jxhf2iqp9r/AF35lhdCMbRm5VVAfNO4n8M?rlkey=zt1ijovaqo47ev99y9fi2qrtt&st=vthjub3p&dl=0">Download here</a>
-- <b>v2.0 macOS_x86 (Intel):</b> <a href="https://www.dropbox.com/scl/fi/5rqerzjudf1ixl9216tx3/DESN2600Test-Mac-Shipping-10.10.23-PM.zip?rlkey=jer5ajepx85zmj245zzttzdai&st=dy0w213b&dl=0">Download here</a>
-- <b>v2.0 macOS_arm64 (Apple Silicon):</b> <a href="https://www.dropbox.com/scl/fi/5rqerzjudf1ixl9216tx3/DESN2600Test-Mac-Shipping-10.10.23-PM.zip?rlkey=jer5ajepx85zmj245zzttzdai&st=dy0w213b&dl=0">Download here</a>
+- <b>v2.1 Windows_x86_64:</b> <a href="https://www.dropbox.com/scl/fo/sv01yicixj3jxhf2iqp9r/AF35lhdCMbRm5VVAfNO4n8M?rlkey=zt1ijovaqo47ev99y9fi2qrtt&st=vthjub3p&dl=0">Download here</a>
+- <b>v2.1 macOS (Intel & Apple Silicon):</b> <a href="https://www.dropbox.com/scl/fi/avt0ow3sq7wr7e9a3gplq/TPS-v2.1-macos-universal.zip?rlkey=3i313epwnz31b6y0o97phvo3r&st=6as49pwj&dl=0">Download here</a>
 
   After downloading, extract the zip file and run the executable.
   If you're on macOS, you might need to allow the app to run in `System Preferences > Security & Privacy` On Windows, you might need to allow the app to run in `Windows Security` prompt.
@@ -118,7 +121,8 @@
 - [X] Update base engine to 5.2.0 for native apple silicon support.
 - [X] Update base engine to 5.3.0 for navite apple silicon supoort for lumen and nanite.
 
+### Screenshots
 <img src="img1.png" width="900"/> <hr/>
 <img src="tps.png" width="900"/> <hr/>
 <img src="img2.png" width="900"/> <hr/>
-<img src="Screenshot 2023-07-26 195911.png" width="900"/> <hr/>
+<img src="img3.png" width="900"/> <hr/>
