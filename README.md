@@ -99,17 +99,17 @@
 ### Downloads 
 
 - <b>v1.0 Windows_x86_64:</b> <a href="https://www.dropbox.com/sh/iaq1bsasgaz5znd/AABZkdeA_N6LC4kTpRVe0Af3a?dl=1">Download here</a>
-- <b>v2.1 Windows_x86_64:</b> <a href="https://www.dropbox.com/scl/fo/sv01yicixj3jxhf2iqp9r/AF35lhdCMbRm5VVAfNO4n8M?rlkey=zt1ijovaqo47ev99y9fi2qrtt&st=vthjub3p&dl=0">Download here</a>
+- <b>v2.1 Windows_x86_64:</b> <a href="https://www.dropbox.com/scl/fi/y1g62y5c5k5s7wxjl6sqi/TPS-V2.1-Windows_x86_64.zip?rlkey=axdea5offa6h703s4hbpbwj99&st=b48xfu4s&dl=0">Download here</a>
 - <b>v2.1 macOS (Intel & Apple Silicon):</b> <a href="https://www.dropbox.com/scl/fi/avt0ow3sq7wr7e9a3gplq/TPS-v2.1-macos-universal.zip?rlkey=3i313epwnz31b6y0o97phvo3r&st=6as49pwj&dl=0">Download here</a>
 
   After downloading, extract the zip file and run the executable.
   If you're on macOS, you might need to allow the app to run in `System Preferences > Security & Privacy` On Windows, you might need to allow the app to run in `Windows Security` prompt.
 
-### Download notes
-- `FSR 2` is only available on Windows v1.0.
-- `v1.0` is built with `Unreal Engine 5.0.3`.
-- `v2.0` is built with `Unreal Engine 5.4.4` with native Apple Silicon support.
-- `v1.0` on Windows uses DX11, `v2.0` uses DX12 & Metal 3 for macOS.
+> [!NOTE]  
+> - `FSR 2` is only available on Windows v1.0.
+> - `v1.0` is built with `Unreal Engine 4.2.7`.
+> - `v2.0 +` is built with `Unreal Engine 5.4.4` with native Apple Silicon support.
+> - Currently `v2.0` uses DX12 & Metal 3 for macOS.
 
 ### Upcoming features
 
