@@ -58,7 +58,7 @@
 > - For now `FSR 2` Doesn't work on macOS 13+ use `r.FidelityFX.FSR2.Enabled 0` to disable.
 > - The latest builds only offer Unreal Engine's Temporal Super Resolution (TSR) in regards to upscaling.
 
-# FSR commands
+# FSR commands (v1.0)
 - For mac users: replace `r.FidelityFX.FSR2` with `r.FidelityFX.FSR1`
 
 | Commands                                | Actions                          |
@@ -82,7 +82,7 @@
 - `Global Illumination`: `High` for Lumen, going lower will default to SSGI and SSAO.
 - `Reflections`: `High` for Lumen, going lower will default to SSR.
 - `Textures`: Low = 1.5 GB, Medium = 2-3 GB, High = 4 GB, Epic = 4-6 GB, Cinematic = 6-8 GB
-- `Effects`: `Epic`, going lower will disable real-time dynamic directional light source. No light baking is implemented yet so the scene will become dark.
+- `Effects`: `Epic`, going lower will disable volumetric lighting.
 - `Foliage`: `Cinematic`, There's no foliage in the scene.
 - `Shading`: `Epic`, no performance cost until Cinematic.
 - `Landscape`: `Epic`, no performance cost until Cinematic.
@@ -94,12 +94,11 @@
 > [!CAUTION]
 > <br> Setting render resolution lower than 30% may cause visual artifacts.
 > <br> Setting Global Illumination to medium will disable Lumen GI and Lumen Reflections.
-> <br> Setting Effects to High or lower will make the scene become dark.
 
 ### Downloads 
 
 - <b>v1.0 Windows_x86_64:</b> <a href="https://www.dropbox.com/sh/iaq1bsasgaz5znd/AABZkdeA_N6LC4kTpRVe0Af3a?dl=1">Download here</a>
-- <b>v2.1 Windows_x86_64:</b> <a href="https://www.dropbox.com/scl/fi/y1g62y5c5k5s7wxjl6sqi/TPS-V2.1-Windows_x86_64.zip?rlkey=axdea5offa6h703s4hbpbwj99&st=b48xfu4s&dl=0">Download here</a>
+- <b>v2.1.1 Windows_x86_64:</b> <a href="https://www.dropbox.com/scl/fi/butme4eri48009ugy7wc7/TPSv2.1.1_Windows_x86_64.zip?rlkey=2aveoab60n7fb3yv211gwbgoh&st=ixxk5704&dl=0">Download here</a>
 - <b>v2.1 macOS (Intel & Apple Silicon):</b> <a href="https://www.dropbox.com/scl/fi/avt0ow3sq7wr7e9a3gplq/TPS-v2.1-macos-universal.zip?rlkey=3i313epwnz31b6y0o97phvo3r&st=6as49pwj&dl=0">Download here</a>
 
   After downloading, extract the zip file and run the executable.
