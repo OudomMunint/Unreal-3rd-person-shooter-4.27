@@ -11,7 +11,7 @@
 | CPU               | i7-3770K or Ryzen 3200G          | i7-8750H or Ryzen 5 4600H       |
 | RAM               | 8GB                              | 16GB or higher                  |
 | Storage           | Nvme SSD 5GB of free space       | Nvme SSD 5GB of free space      |
-| GPU               | Nvidia MX550 2GB                 | GTX 1060 3GB or RX 470 4GB      |
+| GPU               | Nvidia MX550 2GB or RX 560 4GB   | GTX 1060 3GB or RX 470 4GB      |
 | Shader Model      | 5.0+                             | 6+ for VSM, Lumen etc           |
 | API               | DX11 or Vulkan                   | DX12 or Vulkan                  |
 | OS                | Windows 10 or macOS 10.12        | Windows 11 or macOS 10.15       |
@@ -58,7 +58,7 @@
 > - For now `FSR 2` Doesn't work on macOS 13+ use `r.FidelityFX.FSR2.Enabled 0` to disable.
 > - The latest builds only offer Unreal Engine's Temporal Super Resolution (TSR) in regards to upscaling.
 
-# FSR commands
+# FSR commands (v1.0)
 - For mac users: replace `r.FidelityFX.FSR2` with `r.FidelityFX.FSR1`
 
 | Commands                                | Actions                          |
@@ -82,7 +82,7 @@
 - `Global Illumination`: `High` for Lumen, going lower will default to SSGI and SSAO.
 - `Reflections`: `High` for Lumen, going lower will default to SSR.
 - `Textures`: Low = 1.5 GB, Medium = 2-3 GB, High = 4 GB, Epic = 4-6 GB, Cinematic = 6-8 GB
-- `Effects`: `Epic`, going lower will disable real-time dynamic directional light source. No light baking is implemented yet so the scene will become dark.
+- `Effects`: `Epic`, going lower will disable volumetric lighting.
 - `Foliage`: `Cinematic`, There's no foliage in the scene.
 - `Shading`: `Epic`, no performance cost until Cinematic.
 - `Landscape`: `Epic`, no performance cost until Cinematic.
@@ -94,13 +94,12 @@
 > [!CAUTION]
 > <br> Setting render resolution lower than 30% may cause visual artifacts.
 > <br> Setting Global Illumination to medium will disable Lumen GI and Lumen Reflections.
-> <br> Setting Effects to High or lower will make the scene become dark.
 
 ### Downloads 
 
 - <b>v1.0 Windows_x86_64:</b> <a href="https://www.dropbox.com/sh/iaq1bsasgaz5znd/AABZkdeA_N6LC4kTpRVe0Af3a?dl=1">Download here</a>
-- <b>v2.1 Windows_x86_64:</b> <a href="https://www.dropbox.com/scl/fi/y1g62y5c5k5s7wxjl6sqi/TPS-V2.1-Windows_x86_64.zip?rlkey=axdea5offa6h703s4hbpbwj99&st=b48xfu4s&dl=0">Download here</a>
-- <b>v2.1 macOS (Intel & Apple Silicon):</b> <a href="https://www.dropbox.com/scl/fi/avt0ow3sq7wr7e9a3gplq/TPS-v2.1-macos-universal.zip?rlkey=3i313epwnz31b6y0o97phvo3r&st=6as49pwj&dl=0">Download here</a>
+- <b>v2.1.1 Windows_x86_64:</b> <a href="https://www.dropbox.com/scl/fi/butme4eri48009ugy7wc7/TPSv2.1.1_Windows_x86_64.zip?rlkey=2aveoab60n7fb3yv211gwbgoh&st=ixxk5704&dl=0">Download here</a>
+- <b>v2.1.1 macOS (Intel & Apple Silicon):</b> <a href="https://www.dropbox.com/scl/fi/wo4zchtykyrc36wj6qz9k/TPSv2.1.1_macOS_arm64.zip?rlkey=8d10xtm7h93xb51tqcqs8f1nu&st=fz176q8l&dl=0">Download here</a>
 
   After downloading, extract the zip file and run the executable.
   If you're on macOS, you might need to allow the app to run in `System Preferences > Security & Privacy` On Windows, you might need to allow the app to run in `Windows Security` prompt.
@@ -120,6 +119,7 @@
 - [X] Add graphics option for TSR and Anti-Aliasing.
 - [X] Update base engine to 5.2.0 for native apple silicon support.
 - [X] Update base engine to 5.3.0 for navite apple silicon supoort for lumen and nanite.
+- [ ] Add support for FSR 3 for Unreal Engine 5.4.4.
 
 ### Screenshots
 <img src="img1.png" width="900"/> <hr/>
