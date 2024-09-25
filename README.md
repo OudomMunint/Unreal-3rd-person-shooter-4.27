@@ -11,7 +11,7 @@
 | CPU               | i7-3770K or Ryzen 3200G          | i7-8750H or Ryzen 5 4600H       |
 | RAM               | 8GB                              | 16GB or higher                  |
 | Storage           | Nvme SSD 5GB of free space       | Nvme SSD 5GB of free space      |
-| GPU               | Nvidia MX550 2GB                 | GTX 1060 3GB or RX 470 4GB      |
+| GPU               | Nvidia MX550 2GB or RX 560 4GB   | GTX 1060 3GB or RX 470 4GB      |
 | Shader Model      | 5.0+                             | 6+ for VSM, Lumen etc           |
 | API               | DX11 or Vulkan                   | DX12 or Vulkan                  |
 | OS                | Windows 10 or macOS 10.12        | Windows 11 or macOS 10.15       |
@@ -119,6 +119,7 @@
 - [X] Add graphics option for TSR and Anti-Aliasing.
 - [X] Update base engine to 5.2.0 for native apple silicon support.
 - [X] Update base engine to 5.3.0 for navite apple silicon supoort for lumen and nanite.
+- [ ] Add support for FSR 3 for Unreal Engine 5.4.4.
 
 ### Screenshots
 <img src="img1.png" width="900"/> <hr/>
