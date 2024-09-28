@@ -99,7 +99,7 @@
 
 - <b>v1.0 Windows_x86_64:</b> <a href="https://www.dropbox.com/sh/iaq1bsasgaz5znd/AABZkdeA_N6LC4kTpRVe0Af3a?dl=1">Download here</a>
 - <b>v2.1.2 Windows_x86_64:</b> <a href="https://www.dropbox.com/scl/fi/iy0ja6y7zj64dtqxuh0al/v2.1.2_windows_x86.zip?rlkey=cm3svbal8sgr8i9n182frfybr&st=xso92ouq&dl=0">Download here</a>
-- <b>v2.1.2 macOS (Intel & Apple Silicon):</b> <a href="https://www.dropbox.com/scl/fi/wo4zchtykyrc36wj6qz9k/TPSv2.1.1_macOS_arm64.zip?rlkey=8d10xtm7h93xb51tqcqs8f1nu&st=fz176q8l&dl=0">Download here</a>
+- <b>v2.1.2 macOS (Intel & Apple Silicon):</b> <a href="https://www.dropbox.com/scl/fi/3n3sknj9zfyobjcc096pg/v2.1.2_macOS_universal.zip?rlkey=apa27fpraz2gwt7322c6t7lsf&st=qh459nrt&dl=0">Download here</a>
 
   After downloading, extract the zip file and run the executable.
   If you're on macOS, you might need to allow the app to run in `System Preferences > Security & Privacy` On Windows, you might need to allow the app to run in `Windows Security` prompt.
