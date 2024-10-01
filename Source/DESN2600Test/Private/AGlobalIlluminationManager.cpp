@@ -28,10 +28,16 @@ void AAGlobalIlluminationManager::Tick(float DeltaTime)
         IConsoleManager::Get().FindConsoleVariable(TEXT("r.DynamicGlobalIlluminationMethod"))->Set(2);
         IConsoleManager::Get().FindConsoleVariable(TEXT("r.ReflectionMethod"))->Set(2);
         IConsoleManager::Get().FindConsoleVariable(TEXT("r.SSGI.Quality"))->Set(4);
+
+        UE_LOG(LogTemp, Warning, TEXT("Lumen is disabled"));
+        UE_LOG(LogTemp, Warning, TEXT("SSGI fallback is enabled"));
+        UE_LOG(LogTemp, Warning, TEXT("SSR fallback is enabled"));
     }
     else if (Scalability::GetQualityLevels().GlobalIlluminationQuality > 1)
     {
         IConsoleManager::Get().FindConsoleVariable(TEXT("r.DynamicGlobalIlluminationMethod"))->Set(1);
         IConsoleManager::Get().FindConsoleVariable(TEXT("r.ReflectionMethod"))->Set(1);
+
+		UE_LOG(LogTemp, Warning, TEXT("Lumen GI & Reflections is enabled"));
     }
 }
