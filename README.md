@@ -1,6 +1,9 @@
 # 3rd Person Shooter (still thinking of a name)
 ### Started development with `Unreal Engine 4.27`, now developing with `Unreal Engine 5`
 
+> [!NOTE]  
+> This project uses both blueprints and C++
+
 ## Maintenance: ![maintenance-status](https://img.shields.io/badge/maintenance-passively--maintained-yellowgreen.svg)
 
 ## Release Pipeline: [![UE Release](https://github.com/OudomMunint/Unreal-3rd-person-shooter-4.27/actions/workflows/release.yml/badge.svg)](https://github.com/OudomMunint/Unreal-3rd-person-shooter-4.27/actions/workflows/release.yml)
@@ -99,7 +102,7 @@
 
 - <b>v1.0 Windows_x86_64:</b> <a href="https://www.dropbox.com/sh/iaq1bsasgaz5znd/AABZkdeA_N6LC4kTpRVe0Af3a?dl=1">Download here</a>
 - <b>v2.1.3 Windows_x86_64:</b> <a href="https://www.dropbox.com/scl/fi/41ac7c7b7wohgh407q1uo/TPS_v2.1.3_x86.zip?rlkey=wwlp6u8o5g6zr8g5z2bwmibys&st=2haloduj&dl=0">Download here</a>
-- <b>v2.1.2 macOS (Intel & Apple Silicon):</b> <a href="https://www.dropbox.com/scl/fi/3n3sknj9zfyobjcc096pg/v2.1.2_macOS_universal.zip?rlkey=apa27fpraz2gwt7322c6t7lsf&st=qh459nrt&dl=0">Download here</a>
+- <b>v2.1.3 macOS (Intel & Apple Silicon):</b> <a href="https://www.dropbox.com/scl/fi/u13dn2lqymrejkyok2t7x/TPS_v2.1.3_macOS.zip?rlkey=9fwcwfabrv1umgr6fk5ybhkww&st=eo19sdyu&dl=0">Download here</a>
 
   After downloading, extract the zip file and run the executable.
   If you're on macOS, you might need to allow the app to run in `System Preferences > Security & Privacy` On Windows, you might need to allow the app to run in `Windows Security` prompt.
