@@ -98,7 +98,7 @@
 ### Downloads 
 
 - <b>v1.0 Windows_x86_64:</b> <a href="https://www.dropbox.com/sh/iaq1bsasgaz5znd/AABZkdeA_N6LC4kTpRVe0Af3a?dl=1">Download here</a>
-- <b>v2.1.2 Windows_x86_64:</b> <a href="https://www.dropbox.com/scl/fi/iy0ja6y7zj64dtqxuh0al/v2.1.2_windows_x86.zip?rlkey=cm3svbal8sgr8i9n182frfybr&st=xso92ouq&dl=0">Download here</a>
+- <b>v2.1.3 Windows_x86_64:</b> <a href="https://www.dropbox.com/scl/fi/41ac7c7b7wohgh407q1uo/TPS_v2.1.3_x86.zip?rlkey=wwlp6u8o5g6zr8g5z2bwmibys&st=2haloduj&dl=0">Download here</a>
 - <b>v2.1.2 macOS (Intel & Apple Silicon):</b> <a href="https://www.dropbox.com/scl/fi/3n3sknj9zfyobjcc096pg/v2.1.2_macOS_universal.zip?rlkey=apa27fpraz2gwt7322c6t7lsf&st=qh459nrt&dl=0">Download here</a>
 
   After downloading, extract the zip file and run the executable.
