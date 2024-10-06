@@ -19,8 +19,12 @@ protected:
 	// Called when the game starts or when spawned
 	virtual void BeginPlay() override;
 
-public:	
+public:
+	// Global vars
+	int32 CachedGIQuality = Scalability::GetQualityLevels().GlobalIlluminationQuality;
+
 	// Called every frame
 	virtual void Tick(float DeltaTime) override;
 
+	void ApplyGISettings(int32 GiQualityLevel);
 };
