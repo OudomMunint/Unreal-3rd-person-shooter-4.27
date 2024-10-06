@@ -10,8 +10,8 @@ UCLASS()
 class DESN2600TEST_API AAShadowManager : public AActor
 {
 	GENERATED_BODY()
-	
-public:	
+
+public:
 	// Sets default values for this actor's properties
 	AAShadowManager();
 
@@ -20,6 +20,11 @@ protected:
 	virtual void BeginPlay() override;
 
 public:
+	// Global vars
+	int32 CachedShadowQuality = Scalability::GetQualityLevels().ShadowQuality;
+
 	// Called every frame
 	virtual void Tick(float DeltaTime) override;
+
+	void ApplyShadowSettings(int32 ShadowQualityLevel);
 };
