@@ -9,13 +9,13 @@
 // Sets default values
 AAGlobalIlluminationManager::AAGlobalIlluminationManager()
 {
- 	// Set this actor to call Tick() every frame.  You can turn this off to improve performance if you don't need it.
-	PrimaryActorTick.bCanEverTick = true;
+    // Set this actor to call Tick() every frame. You can turn this off to improve performance if you don't need it.
+    PrimaryActorTick.bCanEverTick = true;
 
     // Cache current GI quality level
-	int32 CachedGIQuality = Scalability::GetQualityLevels().GlobalIlluminationQuality;
+    this->CachedGIQuality = Scalability::GetQualityLevels().GlobalIlluminationQuality;
 
-    ApplyGISettings(CachedGIQuality);
+    ApplyGISettings(this->CachedGIQuality);
 }
 
 // Called when the game starts or when spawned
