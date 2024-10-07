@@ -1,10 +1,10 @@
+#include "AShadowManager.h"
 #include "AGlobalIlluminationManager.h"
 #include "Engine/World.h"
 #include "Engine/Engine.h"
 #include "GameFramework/Actor.h"
 #include "HAL/IConsoleManager.h"
 #include "Scalability.h"
-#include "AShadowManager.h"
 
 // Sets default values
 AAShadowManager::AAShadowManager()
@@ -36,11 +36,11 @@ void AAShadowManager::Tick(float DeltaTime)
         CachedShadowQuality = CurrentShadowQuality;
     }
 
-    if (Scalability::GetQualityLevels().ShadowQuality > 1)
+    /*if (Scalability::GetQualityLevels().ShadowQuality > 1)
     {
         IConsoleManager::Get().FindConsoleVariable(TEXT("r.Shadow.Virtual.Enable"))->Set(1);
         UE_LOG(LogTemp, Warning, TEXT("VSM Enabled"));
-    }
+    }*/
 }
 
 void AAShadowManager::ApplyShadowSettings(int32 ShadowQualityLevel)
