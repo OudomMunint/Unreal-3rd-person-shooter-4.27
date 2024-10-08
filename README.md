@@ -32,6 +32,7 @@ for more info on requirements for UE5 Rendering Features on Windows.
 | GPU               | Apple M2 8 Core GPU              | Apple M1 Pro 14 Core GPU        |
 | API               | Metal 2.4                        | Metal 3                         |
 | OS                | macOS 13.0                       | macOS 14                        |
+| Xcode             | 14.1                             | Any >= 14.1                     |
 
 > [!NOTE] <br>
 > See this [link](https://dev.epicgames.com/documentation/en-us/unreal-engine/hardware-and-software-specifications-for-unreal-engine#:~:text=to%2016%20cores.-,Requirements%20for%20UE5%20Rendering%20Features,-Some%20rendering%20features)
@@ -47,6 +48,7 @@ for more info on requirements for UE5 rendering features on macOS.
 | Shader Model      | 5.0+                             | 6+ for VSM, Lumen etc           |
 | API               | Metal 2                          | Metal 2                         |
 | OS                | macOS 10.12                      | macOS 10.15                     |
+| Xcode             | 14.1                             | Any >= 14.1                     |
 
 
 > [!NOTE]  
