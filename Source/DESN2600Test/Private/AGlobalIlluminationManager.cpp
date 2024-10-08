@@ -13,9 +13,8 @@ AAGlobalIlluminationManager::AAGlobalIlluminationManager()
     PrimaryActorTick.bCanEverTick = true;
 
     // Cache current GI quality level
-    this->CachedGIQuality = Scalability::GetQualityLevels().GlobalIlluminationQuality;
-
-    ApplyGISettings(this->CachedGIQuality);
+    CachedGIQuality = Scalability::GetQualityLevels().GlobalIlluminationQuality;
+    ApplyGISettings(CachedGIQuality);
 }
 
 // Called when the game starts or when spawned
@@ -29,7 +28,6 @@ void AAGlobalIlluminationManager::Tick(float DeltaTime)
 {
     Super::Tick(DeltaTime);
 
-    // Check for change
     int32 CurrentGIQuality = Scalability::GetQualityLevels().GlobalIlluminationQuality;
 
     if (CurrentGIQuality != CachedGIQuality)
@@ -41,17 +39,21 @@ void AAGlobalIlluminationManager::Tick(float DeltaTime)
 
 void AAGlobalIlluminationManager::ApplyGISettings(int32 GiQualityLevel)
 {
-    if (Scalability::GetQualityLevels().GlobalIlluminationQuality <= 1)
+    if (GiQualityLevel == 1)
     {
         IConsoleManager::Get().FindConsoleVariable(TEXT("r.DynamicGlobalIlluminationMethod"))->Set(2);
         IConsoleManager::Get().FindConsoleVariable(TEXT("r.ReflectionMethod"))->Set(2);
         IConsoleManager::Get().FindConsoleVariable(TEXT("r.SSGI.Quality"))->Set(4);
 
-         UE_LOG(LogTemp, Warning, TEXT("Lumen is disabled"));
-         UE_LOG(LogTemp, Warning, TEXT("SSGI fallback is enabled"));
-         UE_LOG(LogTemp, Warning, TEXT("SSR fallback is enabled"));
+        UE_LOG(LogTemp, Warning, TEXT("Lumen is disabled"));
+        UE_LOG(LogTemp, Warning, TEXT("SSGI fallback is enabled"));
+        UE_LOG(LogTemp, Warning, TEXT("SSR fallback is enabled"));
     }
-    else if (Scalability::GetQualityLevels().GlobalIlluminationQuality > 1)
+    else if (GiQualityLevel == 0)
+    {
+        IConsoleManager::Get().FindConsoleVariable(TEXT("r.SSGI.Quality"))->Set(0);
+    }
+    else if (GiQualityLevel > 1)
     {
         IConsoleManager::Get().FindConsoleVariable(TEXT("r.DynamicGlobalIlluminationMethod"))->Set(1);
         IConsoleManager::Get().FindConsoleVariable(TEXT("r.ReflectionMethod"))->Set(1);

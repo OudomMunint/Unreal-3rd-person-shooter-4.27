@@ -35,12 +35,6 @@ void AAShadowManager::Tick(float DeltaTime)
         ApplyShadowSettings(CurrentShadowQuality);
         CachedShadowQuality = CurrentShadowQuality;
     }
-
-    /*if (Scalability::GetQualityLevels().ShadowQuality > 1)
-    {
-        IConsoleManager::Get().FindConsoleVariable(TEXT("r.Shadow.Virtual.Enable"))->Set(1);
-        UE_LOG(LogTemp, Warning, TEXT("VSM Enabled"));
-    }*/
 }
 
 void AAShadowManager::ApplyShadowSettings(int32 ShadowQualityLevel)
