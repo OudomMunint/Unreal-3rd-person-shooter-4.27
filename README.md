@@ -34,7 +34,7 @@ for more info on requirements for UE5 Rendering Features on Windows.
 | OS                | macOS 13.0                       | macOS 14                        |
 | Xcode             | 14.1                             | Any >= 14.1                     |
 
-> [!NOTE] <br>
+> [!NOTE]
 > See this [link](https://dev.epicgames.com/documentation/en-us/unreal-engine/hardware-and-software-specifications-for-unreal-engine#:~:text=to%2016%20cores.-,Requirements%20for%20UE5%20Rendering%20Features,-Some%20rendering%20features)
 for more info on requirements for UE5 rendering features on macOS.
 
@@ -61,7 +61,7 @@ for more info on requirements for UE5 rendering features on macOS.
 >   - `2018 MacBook Pro 15" (i7-8850H + Radeon Pro 560X/16GB RAM)`
 
 
-> [!WARNING]  Known issues: <br> 
+> [!WARNING]
 > Nanite & Virtual Shadow Maps (VSM) is only available for Apple Silicon M2+ <br>
 > Builds later than `1.0` only offer Unreal Engine's Temporal Super Resolution (TSR) as an upscaling solution.
 
@@ -95,10 +95,10 @@ for more info on requirements for UE5 rendering features on macOS.
 - `Landscape`: `Epic`, no performance cost until Cinematic.
 
 > [!TIP]
-> <br> You can use the performance overlay to see the performance impact of each setting in real-time.
+> You can use the performance overlay to see the performance impact of each setting in real-time.
 > <br> To do so go to `Options > Graphics > Performance Overlay`.
 
-> [!CAUTION] <br>
+> [!CAUTION]
 >If graphics options are not being applied, try clicking `Play` in the main menu, then you can go back to the main menu
 anytime by pressing `R` during game play.
 
