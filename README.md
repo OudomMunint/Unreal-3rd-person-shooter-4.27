@@ -19,6 +19,10 @@
 | API               | DX11 or Vulkan                   | DX12 or Vulkan                  |
 | OS                | Windows 10 or macOS 10.12        | Windows 11 or macOS 10.15       |
 
+> [!NOTE]  
+> See this [link](https://dev.epicgames.com/documentation/en-us/unreal-engine/hardware-and-software-specifications-for-unreal-engine#:~:text=to%2016%20cores.-,Requirements%20for%20UE5%20Rendering%20Features,-Some%20rendering%20features)
+for more info on requirements for UE5 Rendering Features on Windows.
+
 # Recommened Specs Apple Silicon
 | Specification     | Minimum                          | Recommended                     |
 |-------------------|----------------------------------|---------------------------------|
@@ -28,6 +32,11 @@
 | GPU               | Apple M2 8 Core GPU              | Apple M1 Pro 14 Core GPU        |
 | API               | Metal 2.4                        | Metal 3                         |
 | OS                | macOS 13.0                       | macOS 14                        |
+| Xcode             | 14.1                             | Any >= 14.1                     |
+
+> [!NOTE] <br>
+> See this [link](https://dev.epicgames.com/documentation/en-us/unreal-engine/hardware-and-software-specifications-for-unreal-engine#:~:text=to%2016%20cores.-,Requirements%20for%20UE5%20Rendering%20Features,-Some%20rendering%20features)
+for more info on requirements for UE5 rendering features on macOS.
 
 # Recommended Specs Intel Macs
 | Specification     | Minimum                          | Recommended                     |
@@ -39,29 +48,24 @@
 | Shader Model      | 5.0+                             | 6+ for VSM, Lumen etc           |
 | API               | Metal 2                          | Metal 2                         |
 | OS                | macOS 10.12                      | macOS 10.15                     |
+| Xcode             | 14.1                             | Any >= 14.1                     |
 
 
 > [!NOTE]  
-> - ~~‼️ Apple silicon is now supported with `macOS 13.0+` and `Unreal Engine 5.1.1+`~~
-> - Apple silicon is now supported with `macOS 13.0+` and `Unreal Engine 5.2+`
-> - Apple silicon Mac compatibility and performance was tested on:
-> - `2023 MacBook Pro 14" M2 Pro (10 core CPU/16 Core GPU)`
-> - `2021 MacBookPro 16" M1 Max (10 core GPU/32 Core GPU)`
-> - Intel Mac compatibility and performance was tested on: 
-> - `2016 MacBook Pro 15" (i7-6700HQ + Radeon Pro 455)`
-> - `2018 MacBook Pro 15" (i7-8850H + Radeon Pro 560X)`
-> - Use `r.FidelityFX.FSR2.EnableFP16OnNvDX11` to enable half precision mode if GPU < `Maxwell` / `GCN 1.0
+>  Apple silicon Mac compatibility and performance was tested on:
+>   - `2023 MacBook Pro 14" M2 Pro (10 core CPU/16 Core GPU/16GB RAM)`
+>   - `2021 MacBookPro 16" M1 Max (10 core GPU/32 Core GPU/16GB RAM)`
+>
+> Intel Mac compatibility and performance was tested on: 
+>   - `2016 MacBook Pro 15" (i7-6700HQ + Radeon Pro 455/16GB RAM)`
+>   - `2018 MacBook Pro 15" (i7-8850H + Radeon Pro 560X/16GB RAM)`
 
 
-> [!WARNING]  
-> Known issues:
-> - ~~Apple silicon isn't supported `M1` & `M2` SKUs~~
-> - `UE 5.2.1` will not launch because of `FSR 2.2.1`.
-> - For now macOS platforms can only use `FSR 1.0` & `FSR Mobile`.
-> - For now `FSR 2` Doesn't work on macOS 13+ use `r.FidelityFX.FSR2.Enabled 0` to disable.
-> - The latest builds only offer Unreal Engine's Temporal Super Resolution (TSR) in regards to upscaling.
+> [!WARNING]  Known issues: <br> 
+> Nanite & Virtual Shadow Maps (VSM) is only available for Apple Silicon M2+ <br>
+> Builds later than `1.0` only offer Unreal Engine's Temporal Super Resolution (TSR) as an upscaling solution.
 
-# FSR commands (v1.0)
+# FSR commands. For (v1.0) build.
 - For mac users: replace `r.FidelityFX.FSR2` with `r.FidelityFX.FSR1`
 
 | Commands                                | Actions                          |
@@ -73,15 +77,15 @@
 | `r.FidelityFX.FSR2.QualityMode 2`       | FSR 2 Balanced Mode              |
 | `r.FidelityFX.FSR2.QualityMode 3`       | FSR 2 Performance Mode           |
 | `r.FidelityFX.FSR2.QualityMode 4`       | FSR 2 Ultra Performance Mode     |
+| `r.FidelityFX.FSR2.EnableFP16OnNvDX11 1`| Enable half precision mode on Nvidia|
 
 # Optimization
-#### These Settings were tested on an MX550 resulting in 51fps min and 58fps max @1080p
 - `Resolution Scale`: `100%` if TSR or FSR is off.
 - `View Distance`: `Near`, the map is small.
 - `Anti-Aliasing Mode`: `TAA` or `TSR` if render resolution is below 100%.
 - `Anti-Aliasing`: `Epic` if TAA is enabled, High if TSR is enabled.
-- `Post Processing`: `High`, Enables lens effects.
-- `Shadows`: `High-Epic` Allows soft shadows & volumetric shadows.
+- `Post Processing`: `High`, Enables lens effects. This can be controlled individually.
+- `Shadows`: `High-Epic` Allows soft shadows & volumetric shadows. Medium if your GPU doesn't support SM6.
 - `Global Illumination`: `High` for Lumen, going lower will default to SSGI and SSAO.
 - `Reflections`: `High` for Lumen, going lower will default to SSR.
 - `Textures`: Low = 1.5 GB, Medium = 2-3 GB, High = 4 GB, Epic = 4-6 GB, Cinematic = 6-8 GB
@@ -94,24 +98,21 @@
 > <br> You can use the performance overlay to see the performance impact of each setting in real-time.
 > <br> To do so go to `Options > Graphics > Performance Overlay`.
 
-> [!CAUTION]
-> <br> Setting render resolution lower than 30% may cause visual artifacts.
-> <br> Setting Global Illumination to medium will disable Lumen GI and Lumen Reflections.
+> [!CAUTION] <br>
+>If graphics options are not being applied, try clicking `Play` in the main menu, then you can go back to the main menu
+anytime by pressing `R` during game play.
 
 ### Downloads 
-
-- <b>v1.0 Windows_x86_64:</b> <a href="https://www.dropbox.com/sh/iaq1bsasgaz5znd/AABZkdeA_N6LC4kTpRVe0Af3a?dl=1">Download here</a>
-- <b>v2.1.3 Windows_x86_64:</b> <a href="https://www.dropbox.com/scl/fi/41ac7c7b7wohgh407q1uo/TPS_v2.1.3_x86.zip?rlkey=wwlp6u8o5g6zr8g5z2bwmibys&st=2haloduj&dl=0">Download here</a>
-- <b>v2.1.3 macOS (Intel & Apple Silicon):</b> <a href="https://www.dropbox.com/scl/fi/u13dn2lqymrejkyok2t7x/TPS_v2.1.3_macOS.zip?rlkey=9fwcwfabrv1umgr6fk5ybhkww&st=eo19sdyu&dl=0">Download here</a>
-
   After downloading, extract the zip file and run the executable.
-  If you're on macOS, you might need to allow the app to run in `System Preferences > Security & Privacy` On Windows, you might need to allow the app to run in `Windows Security` prompt.
+  If you're on macOS, you might need to allow the app to run in `System Preferences > Security & Privacy` On Windows, you might need to allow the app to run when prompted by Windows Security.
+- <b>v1.0 (Deprecated) Windows_x86_64:</b> <a href="https://www.dropbox.com/sh/iaq1bsasgaz5znd/AABZkdeA_N6LC4kTpRVe0Af3a?dl=1">Download here</a>
+- <b>v2.1.4 Windows_x86_64:</b> <a href="https://www.dropbox.com/scl/fi/mp7uqwbhy5maw98al00wa/TPS_2.1.4_x86_64.zip?rlkey=c9yujbgjhpnnc725w04c1jlx8&st=r8pk7ih9&dl=0">Download here</a>
+- <b>v2.1.4 macOS (Intel & Apple Silicon):</b> <a href="https://www.dropbox.com/scl/fi/6ueauqgurhz66fj8746zt/TPS_2.1.4_macOS.zip?rlkey=zu19eamzss0arewhjwng6gwc3&st=m1e0a3fn&dl=0">Download here</a>
 
 > [!NOTE]  
-> - `FSR 2` is only available on Windows v1.0.
-> - `v1.0` is built with `Unreal Engine 4.2.7`.
-> - `v2.0 +` is built with `Unreal Engine 5.4.4` with native Apple Silicon support.
-> - Currently `v2.0` uses DX12 & Metal 3 for macOS.
+> FSR 2 is only available on Windows v1.0 build. <br>
+> TPS `v2.0 +` is built with `Unreal Engine 5.4.4` with native Apple Silicon support. <br>
+> Currently `v2.0 +` uses DX12 for Windows & Metal 3 for macOS.
 
 ### Upcoming features
 
