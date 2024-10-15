@@ -26,5 +26,6 @@ public:
 	// Called every frame
 	virtual void Tick(float DeltaTime) override;
 
+	UFUNCTION(BlueprintCallable, Category = "Shadows")
 	void ApplyShadowSettings(int32 ShadowQualityLevel);
 };
