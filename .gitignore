@@ -76,3 +76,5 @@ Plugins/*/Intermediate/*
 # Cache files for the editor to use
 DerivedDataCache/*
 /enc_temp_folder
+Content/StarterContent/Blueprints/Blueprint_CeilingLight.uasset
+Content/StarterContent/HDRI/HDRI_Epic_Courtyard_Daylight.uasset
