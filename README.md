@@ -106,7 +106,7 @@ anytime by pressing `R` during game play.
   After downloading, extract the zip file and run the executable.
   If you're on macOS, you might need to allow the app to run in `System Preferences > Security & Privacy` On Windows, you might need to allow the app to run when prompted by Windows Security.
 - <b>v1.0 (Deprecated) Windows_x86_64:</b> <a href="https://www.dropbox.com/sh/iaq1bsasgaz5znd/AABZkdeA_N6LC4kTpRVe0Af3a?dl=1">Download here</a>
-- <b>v2.2.0 Windows_x86_64:</b> <a href="https://www.dropbox.com/scl/fi/mp7uqwbhy5maw98al00wa/TPS_2.1.4_x86_64.zip?rlkey=c9yujbgjhpnnc725w04c1jlx8&st=r8pk7ih9&dl=0">Download here</a>
+- <b>v2.2.0 Windows_x86_64:</b> <a href="https://www.dropbox.com/scl/fi/8al23mkzg6xb6lb1lj2q9/TPS-v2.2-x86.zip?rlkey=f4md149ig35s7j915rpb8ss1w&st=w2dvqdtz&dl=0">Download here</a>
 - <b>v2.2.0 macOS (Intel & Apple Silicon):</b> <a href="https://www.dropbox.com/scl/fi/6ueauqgurhz66fj8746zt/TPS_2.1.4_macOS.zip?rlkey=zu19eamzss0arewhjwng6gwc3&st=m1e0a3fn&dl=0">Download here</a>
 
 > [!NOTE]  
