@@ -124,6 +124,9 @@ anytime by pressing `R` during game play.
 - [X] Update base engine to 5.2.0 for native apple silicon support.
 - [X] Update base engine to 5.3.0 for navite apple silicon supoort for lumen and nanite.
 - [ ] Add support for FSR 3 for Unreal Engine 5.4.4.
+- [X] Reloading System.
+- [X] Shoulder Switching System.
+- [X] Objectives System & Win Condition.
 
 ### Screenshots
 <img src="img1.png" width="900"/> <hr/>
