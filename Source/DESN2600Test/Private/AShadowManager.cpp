@@ -1,5 +1,4 @@
 #include "AShadowManager.h"
-#include "AGlobalIlluminationManager.h"
 #include "Engine/World.h"
 #include "Engine/Engine.h"
 #include "GameFramework/Actor.h"

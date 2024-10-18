@@ -4,7 +4,6 @@
 #include "GameFramework/Actor.h"
 #include "HAL/IConsoleManager.h"
 #include "Scalability.h"
-#include "AShadowManager.h"
 
 // Sets default values
 AAGlobalIlluminationManager::AAGlobalIlluminationManager()
