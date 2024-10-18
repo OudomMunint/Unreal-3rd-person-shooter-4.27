@@ -28,7 +28,7 @@
 		},
 		{
 			"Name": "FSR3",
-			"Enabled": true,
+			"Enabled": false,
 			"SupportedTargetPlatforms": [
 				"Win64"
 			]
