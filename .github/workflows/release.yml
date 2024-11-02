@@ -9,7 +9,7 @@ permissions:
   contents: write
   
 jobs:
-  Verify-Project-Integrity:
+  Verify-Integrity:
     runs-on: ubuntu-latest
     steps:
       - name: Use Node.js lasted
@@ -24,5 +24,5 @@ jobs:
       - name: Create Release
         uses: ncipollo/release-action@v1.14.0
         with:
-          artifacts: "UE4&5-github-actions-build"
-          tag: v2.2.0
+          artifacts: "UE-github-actions-artifacts"
+          tag: v2.2.1
