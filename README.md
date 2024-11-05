@@ -1,5 +1,5 @@
 # 3rd Person Shooter (still thinking of a name)
-### Started development with `Unreal Engine 4.27`, now developing with `Unreal Engine 5`
+### Started development with `Unreal Engine 4.27`, now developing with `Unreal Engine 5.4.4`
 
 > [!NOTE]  
 > This project uses both blueprints and C++
@@ -65,6 +65,13 @@ for more info on requirements for UE5 rendering features on macOS.
 > Nanite & Virtual Shadow Maps (VSM) is only available for Apple Silicon M2+ <br>
 > Builds later than `1.0` only offer Unreal Engine's Temporal Super Resolution (TSR) as an upscaling solution.
 
+
+> [!WARNING]
+> FSR 1 and FSR 2 are now Deprecated. FSR 3 is now available for the latest builds. <br>
+> FSR 3 requires a Polaris (RX 5XX) GPU or newer for AMD and Pascal (GTX 10XX) GPU or newer for Nvidia. <br>
+> [!TIP]
+> Options for FSR 3 are available in the graphics settings.
+
 # FSR commands. For (v1.0) build.
 - For mac users: replace `r.FidelityFX.FSR2` with `r.FidelityFX.FSR1`
 
@@ -78,6 +85,12 @@ for more info on requirements for UE5 rendering features on macOS.
 | `r.FidelityFX.FSR2.QualityMode 3`       | FSR 2 Performance Mode           |
 | `r.FidelityFX.FSR2.QualityMode 4`       | FSR 2 Ultra Performance Mode     |
 | `r.FidelityFX.FSR2.EnableFP16OnNvDX11 1`| Enable half precision mode on Nvidia|
+
+# FSR 3.1.1 commands.
+
+| Commands                                | Actions                          |
+|-----------------------------------------|----------------------------------|
+| `r.FidelityFX.FSR3.EnableFP16OnNvDX11 1`| Enable half precision mode on Nvidia|
 
 # Optimization
 - `Resolution Scale`: `100%` if TSR or FSR is off.
