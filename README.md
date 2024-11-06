@@ -60,17 +60,15 @@ for more info on requirements for UE5 rendering features on macOS.
 >   - `2016 MacBook Pro 15" (i7-6700HQ + Radeon Pro 455/16GB RAM)`
 >   - `2018 MacBook Pro 15" (i7-8850H + Radeon Pro 560X/16GB RAM)`
 
-
 > [!WARNING]
 > Nanite & Virtual Shadow Maps (VSM) is only available for Apple Silicon M2+ <br>
-> Builds later than `1.0` only offer Unreal Engine's Temporal Super Resolution (TSR) as an upscaling solution.
-
-
-> [!WARNING]
 > FSR 1 and FSR 2 are now Deprecated. FSR 3 is now available for the latest builds. <br>
 > FSR 3 requires a Polaris (RX 5XX) GPU or newer for AMD and Pascal (GTX 10XX) GPU or newer for Nvidia. <br>
+> FSR 3 implementation in this project is consist of the upscaling component, no frame generation. <br>
+> Currently FSR 3 is only available for Windows builds, macOS would still have TSR.
+
 > [!TIP]
-> Options for FSR 3 are available in the graphics settings.
+> Options for FSR 3 are available in the graphics settings for windows builds.
 
 # FSR commands. For (v1.0) build.
 - For mac users: replace `r.FidelityFX.FSR2` with `r.FidelityFX.FSR1`
@@ -111,16 +109,12 @@ for more info on requirements for UE5 rendering features on macOS.
 > You can use the performance overlay to see the performance impact of each setting in real-time.
 > <br> To do so go to `Options > Graphics > Performance Overlay`.
 
-> [!CAUTION]
->If graphics options are not being applied, try clicking `Play` in the main menu, then you can go back to the main menu
-anytime by pressing `R` during game play.
-
 ### Downloads 
   After downloading, extract the zip file and run the executable.
   If you're on macOS, you might need to allow the app to run in `System Preferences > Security & Privacy` On Windows, you might need to allow the app to run when prompted by Windows Security.
 - <b>v1.0 (Deprecated) Windows_x86_64:</b> <a href="https://www.dropbox.com/sh/iaq1bsasgaz5znd/AABZkdeA_N6LC4kTpRVe0Af3a?dl=1">Download here</a>
 - <b>v2.2.1 Windows_x86_64:</b> <a href="https://www.dropbox.com/scl/fi/8al23mkzg6xb6lb1lj2q9/TPS-v2.2-x86.zip?rlkey=f4md149ig35s7j915rpb8ss1w&st=w2dvqdtz&dl=0">Download here</a>
-- <b>v2.2.1 macOS (Intel & Apple Silicon):</b> <a href="https://www.dropbox.com/scl/fi/ks3o77akre3ohflfcr0aq/TPS-v2.2.0-macos.zip?rlkey=819p8wwl5mylcg9mywmdsslyh&st=u9pjvp8x&dl=0">Download here</a>
+- <b>v2.2.1 macOS (Intel & Apple Silicon):</b> <a href="https://www.dropbox.com/scl/fi/px5r1pb0wiszbrkq0cpb6/TPS-2.2.1-macos.zip?rlkey=ag2ribixs1uhs5p265v109q8s&st=brgmzg68&dl=0">Download here</a>
 
 > [!NOTE]  
 > FSR 2 is only available on Windows v1.0 build. <br>
