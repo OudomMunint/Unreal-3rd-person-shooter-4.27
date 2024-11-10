@@ -25,6 +25,13 @@
 		{
 			"Name": "MobileFSR",
 			"Enabled": false
+		},
+		{
+			"Name": "FSR3",
+			"Enabled": true,
+			"SupportedTargetPlatforms": [
+				"Win64"
+			]
 		}
 	],
 	"TargetPlatforms": [
