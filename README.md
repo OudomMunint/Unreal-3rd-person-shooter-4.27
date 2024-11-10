@@ -1,5 +1,5 @@
 # 3rd Person Shooter (still thinking of a name)
-### Started development with `Unreal Engine 4.27`, now developing with `Unreal Engine 5.4.4`
+### Current engine version: `Unreal Engine 5.4.4`
 
 > [!NOTE]  
 > This project uses both blueprints and C++
@@ -114,7 +114,7 @@ for more info on requirements for UE5 rendering features on macOS.
   If you're on macOS, you might need to allow the app to run in `System Preferences > Security & Privacy` On Windows, you might need to allow the app to run when prompted by Windows Security.
 - <b>v1.0 (Deprecated) Windows_x86_64:</b> <a href="https://www.dropbox.com/sh/iaq1bsasgaz5znd/AABZkdeA_N6LC4kTpRVe0Af3a?dl=1">Download here</a>
 - <b>v2.2.1 Windows_x86_64:</b> <a href="https://www.dropbox.com/scl/fi/yxph6ez8fzf6h6htau9pn/TPS-v2.2.1-win11.zip?rlkey=f4xtrfd5c71p05g5czhi2rllo&st=ususi9tj&dl=0">Download here</a>
-- <b>v2.2.1 macOS (Intel & Apple Silicon):</b> <a href="https://www.dropbox.com/scl/fi/px5r1pb0wiszbrkq0cpb6/TPS-2.2.1-macos.zip?rlkey=ag2ribixs1uhs5p265v109q8s&st=brgmzg68&dl=0">Download here</a>
+- <b>v2.2.1 macOS (Intel & Apple Silicon):</b> <a href="https://www.dropbox.com/scl/fi/hmphx4ggyzftokmb6lrxk/TPS-v2.2.1-macOS.zip?rlkey=o52qdj00ptrgtyox82i67mfsu&st=ldz81ud2&dl=0">Download here</a>
 
 > [!NOTE]  
 > FSR 2 is only available on Windows v1.0 build. <br>
