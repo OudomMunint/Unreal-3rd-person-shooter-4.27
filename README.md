@@ -8,6 +8,9 @@
 
 ## Release Pipeline: [![UE Release](https://github.com/OudomMunint/Unreal-3rd-person-shooter-4.27/actions/workflows/release.yml/badge.svg)](https://github.com/OudomMunint/Unreal-3rd-person-shooter-4.27/actions/workflows/release.yml)
 
+## Features
+- 
+
 # Recommened Specs
 | Specification     | Minimum                          | Recommended                     |
 |-------------------|----------------------------------|---------------------------------|
@@ -18,6 +21,7 @@
 | Shader Model      | 5.0+                             | 6+ for VSM, Lumen etc           |
 | API               | DX11 or Vulkan                   | DX12 or Vulkan                  |
 | OS                | Windows 10 or macOS 10.12        | Windows 11 or macOS 10.15       |
+| Engin Version     | 5.4.4                            | 5.4.4                           |
 
 > [!NOTE]  
 > See this [link](https://dev.epicgames.com/documentation/en-us/unreal-engine/hardware-and-software-specifications-for-unreal-engine#:~:text=to%2016%20cores.-,Requirements%20for%20UE5%20Rendering%20Features,-Some%20rendering%20features)
@@ -33,6 +37,7 @@ for more info on requirements for UE5 Rendering Features on Windows.
 | API               | Metal 2.4                        | Metal 3                         |
 | OS                | macOS 13.0                       | macOS 14                        |
 | Xcode             | 14.1                             | Any >= 14.1                     |
+| Engin Version     | 5.4.4                            | 5.4.4                           |
 
 > [!NOTE]
 > See this [link](https://dev.epicgames.com/documentation/en-us/unreal-engine/hardware-and-software-specifications-for-unreal-engine#:~:text=to%2016%20cores.-,Requirements%20for%20UE5%20Rendering%20Features,-Some%20rendering%20features)
