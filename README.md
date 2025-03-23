@@ -118,7 +118,7 @@ for more info on requirements for UE5 rendering features on macOS.
   After downloading, extract the zip file and run the executable (Might need to run as admin).
   If you're on macOS, you might need to allow the app to run in `System Preferences > Security & Privacy` On Windows, you might need to allow the app to run when prompted by Windows Security.
 - <b>v1.0 (Deprecated) Windows_x86_64:</b> <a href="https://www.dropbox.com/sh/iaq1bsasgaz5znd/AABZkdeA_N6LC4kTpRVe0Af3a?dl=1">Download here</a>
-- <b>v2.2.1 Windows_x86_64:</b> <a href="https://www.dropbox.com/scl/fi/yxph6ez8fzf6h6htau9pn/TPS-v2.2.1-win11.zip?rlkey=f4xtrfd5c71p05g5czhi2rllo&st=ususi9tj&dl=0">Download here</a>
+- <b>v2.2.2 Windows_x86_64:</b> <a href="https://www.dropbox.com/scl/fi/ge4axmbig7k51lupxdmoo/TPS-2.2.2-win_x86_64.zip?rlkey=1xt73js4cpto6v2hasndm6319&st=13n8o83c&dl=0">Download here</a>
 - <b>v2.2.1 macOS (Intel & Apple Silicon):</b> <a href="https://www.dropbox.com/scl/fi/hmphx4ggyzftokmb6lrxk/TPS-v2.2.1-macOS.zip?rlkey=o52qdj00ptrgtyox82i67mfsu&st=ldz81ud2&dl=0">Download here</a>
 
 > [!NOTE]  
