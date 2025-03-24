@@ -48,7 +48,7 @@
 - Shader Model 6 support
 - Shader Model 5 fallback (coming soon)
 
-## AI
+## AI, based on [SimplifiedAIShooter](https://www.fab.com/listings/dd0af22c-ffd0-4dec-b1ac-c1fda4b150fd)
 - Basic Enemy AI with different shooter types.
 - Enemy AI based on perception system.
 - Health & Damage system.
