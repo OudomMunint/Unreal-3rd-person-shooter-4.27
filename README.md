@@ -8,6 +8,53 @@
 
 ## Release Pipeline: [![UE Release](https://github.com/OudomMunint/Unreal-3rd-person-shooter-4.27/actions/workflows/release.yml/badge.svg)](https://github.com/OudomMunint/Unreal-3rd-person-shooter-4.27/actions/workflows/release.yml)
 
+## Features
+### HUD
+- Performance overlay
+- Health Bar
+- Mag / Ammo Count
+- Crosshair
+- Score tracker
+- Session timer
+
+### Menus
+- Main Menu
+- Graphics settings menu
+- Pause menu
+- Win/Lose screen
+
+### Player & Camera
+- Standard Third person camera
+- Shoulder switching
+- Third person aiming
+- Standard third person movement
+- Sprinting & Crouching
+
+### Gameplay
+- Raycast based shooting
+- Reloading system
+- Standard Win/Lose condition
+- Dynamic & Fixed location based spawn triggers
+
+## Graphics
+- AMD FSR 3.1.1 upscaling
+- UE5 TSR & TAAU
+- Lumen GI & Reflections
+- SSGI & SSR fallbacks
+- Virtual Shadow Maps
+- Cascaded Shadow Map fallbacks
+- DX12 & Metal 3 support
+- DX11 & Metal 2 fallback (coming soon)
+- Shader Model 6 support
+- Shader Model 5 fallback (coming soon)
+
+## AI, based on [SimplifiedAIShooter](https://www.fab.com/listings/dd0af22c-ffd0-4dec-b1ac-c1fda4b150fd)
+- Basic Enemy AI with different shooter types.
+- Enemy AI based on perception system.
+- Health & Damage system.
+- Mesh location based damage system.
+- Audio & visual perception.
+
 # Recommened Specs
 | Specification     | Minimum                          | Recommended                     |
 |-------------------|----------------------------------|---------------------------------|
@@ -18,6 +65,7 @@
 | Shader Model      | 5.0+                             | 6+ for VSM, Lumen etc           |
 | API               | DX11 or Vulkan                   | DX12 or Vulkan                  |
 | OS                | Windows 10 or macOS 10.12        | Windows 11 or macOS 10.15       |
+| Engin Version     | 5.4.4                            | 5.4.4                           |
 
 > [!NOTE]  
 > See this [link](https://dev.epicgames.com/documentation/en-us/unreal-engine/hardware-and-software-specifications-for-unreal-engine#:~:text=to%2016%20cores.-,Requirements%20for%20UE5%20Rendering%20Features,-Some%20rendering%20features)
@@ -33,6 +81,7 @@ for more info on requirements for UE5 Rendering Features on Windows.
 | API               | Metal 2.4                        | Metal 3                         |
 | OS                | macOS 13.0                       | macOS 14                        |
 | Xcode             | 14.1                             | Any >= 14.1                     |
+| Engin Version     | 5.4.4                            | 5.4.4                           |
 
 > [!NOTE]
 > See this [link](https://dev.epicgames.com/documentation/en-us/unreal-engine/hardware-and-software-specifications-for-unreal-engine#:~:text=to%2016%20cores.-,Requirements%20for%20UE5%20Rendering%20Features,-Some%20rendering%20features)
@@ -113,8 +162,8 @@ for more info on requirements for UE5 rendering features on macOS.
   After downloading, extract the zip file and run the executable (Might need to run as admin).
   If you're on macOS, you might need to allow the app to run in `System Preferences > Security & Privacy` On Windows, you might need to allow the app to run when prompted by Windows Security.
 - <b>v1.0 (Deprecated) Windows_x86_64:</b> <a href="https://www.dropbox.com/sh/iaq1bsasgaz5znd/AABZkdeA_N6LC4kTpRVe0Af3a?dl=1">Download here</a>
-- <b>v2.2.1 Windows_x86_64:</b> <a href="https://www.dropbox.com/scl/fi/yxph6ez8fzf6h6htau9pn/TPS-v2.2.1-win11.zip?rlkey=f4xtrfd5c71p05g5czhi2rllo&st=ususi9tj&dl=0">Download here</a>
-- <b>v2.2.1 macOS (Intel & Apple Silicon):</b> <a href="https://www.dropbox.com/scl/fi/hmphx4ggyzftokmb6lrxk/TPS-v2.2.1-macOS.zip?rlkey=o52qdj00ptrgtyox82i67mfsu&st=ldz81ud2&dl=0">Download here</a>
+- <b>v2.2.2 Windows_x86_64:</b> <a href="https://www.dropbox.com/scl/fi/ge4axmbig7k51lupxdmoo/TPS-2.2.2-win_x86_64.zip?rlkey=1xt73js4cpto6v2hasndm6319&st=13n8o83c&dl=0">Download here</a>
+- <b>v2.2.2 macOS (Intel & Apple Silicon):</b> <a href="https://www.dropbox.com/scl/fi/cfedh1oo6f2l02rzw66dc/TPS-2.2.2-macOS.zip?rlkey=4aj4zfqzk5q5fzg0l4l48br75&st=wt7a457k&dl=0">Download here</a>
 
 > [!NOTE]  
 > FSR 2 is only available on Windows v1.0 build. <br>
@@ -136,7 +185,7 @@ for more info on requirements for UE5 rendering features on macOS.
 - [X] Objectives System & Win Condition.
 
 ### Screenshots
-<img src="img1.png" width="900"/> <hr/>
-<img src="tps.png" width="900"/> <hr/>
-<img src="img2.png" width="900"/> <hr/>
-<img src="img3.png" width="900"/> <hr/>
+<img src="Media/img1.png" width="900"/> <hr/>
+<img src="Media/tps.png" width="900"/> <hr/>
+<img src="Media/img2.png" width="900"/> <hr/>
+<img src="Media/img3.png" width="900"/> <hr/>
