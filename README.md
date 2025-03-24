@@ -9,7 +9,51 @@
 ## Release Pipeline: [![UE Release](https://github.com/OudomMunint/Unreal-3rd-person-shooter-4.27/actions/workflows/release.yml/badge.svg)](https://github.com/OudomMunint/Unreal-3rd-person-shooter-4.27/actions/workflows/release.yml)
 
 ## Features
-- 
+### HUD
+- Performance overlay
+- Health Bar
+- Mag / Ammo Count
+- Crosshair
+- Score tracker
+- Session timer
+
+### Menus
+- Main Menu
+- Graphics settings menu
+- Pause menu
+- Win/Lose screen
+
+### Player & Camera
+- Standard Third person camera
+- Shoulder switching
+- Third person aiming
+- Standard third person movement
+- Sprinting & Crouching
+
+### Gameplay
+- Raycast based shooting
+- Reloading system
+- Standard Win/Lose condition
+- Dynamic & Fixed location based spawn triggers
+
+## Graphics
+- AMD FSR 3.1.1 upscaling
+- UE5 TSR & TAAU
+- Lumen GI & Reflections
+- SSGI & SSR fallbacks
+- Virtual Shadow Maps
+- Cascaded Shadow Map fallbacks
+- DX12 & Metal 3 support
+- DX11 & Metal 2 fallback (coming soon)
+- Shader Model 6 support
+- Shader Model 5 fallback (coming soon)
+
+## AI
+- Basic Enemy AI with different shooter types.
+- Enemy AI based on perception system.
+- Health & Damage system.
+- Mesh location based damage system.
+- Audio & visual perception.
 
 # Recommened Specs
 | Specification     | Minimum                          | Recommended                     |
@@ -141,7 +185,7 @@ for more info on requirements for UE5 rendering features on macOS.
 - [X] Objectives System & Win Condition.
 
 ### Screenshots
-<img src="img1.png" width="900"/> <hr/>
-<img src="tps.png" width="900"/> <hr/>
-<img src="img2.png" width="900"/> <hr/>
-<img src="img3.png" width="900"/> <hr/>
+<img src="Media/img1.png" width="900"/> <hr/>
+<img src="Media/tps.png" width="900"/> <hr/>
+<img src="Media/img2.png" width="900"/> <hr/>
+<img src="Media/img3.png" width="900"/> <hr/>
