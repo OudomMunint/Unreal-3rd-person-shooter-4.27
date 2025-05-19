@@ -38,6 +38,7 @@
 
 ## Graphics
 - AMD FSR 3.1.1 upscaling
+- AMD FSR 3 frame generation
 - UE5 TSR & TAAU
 - Lumen GI & Reflections
 - SSGI & SSR fallbacks
@@ -115,6 +116,7 @@ for more info on requirements for UE5 rendering features on macOS.
 > FSR 3 requires a Polaris (RX 5XX) GPU or newer for AMD and Pascal (GTX 10XX) GPU or newer for Nvidia. <br>
 > FSR 3 implementation in this project is consist of the upscaling component, no frame generation. <br>
 > Currently FSR 3 is only available for Windows builds, macOS would still have TSR.
+> FSR 3 frame generation is not available for macOS yet. <br>
 
 > [!TIP]
 > Options for FSR 3 are available in the graphics settings for windows builds.
@@ -180,6 +182,7 @@ for more info on requirements for UE5 rendering features on macOS.
 - [X] Update base engine to 5.2.0 for native apple silicon support.
 - [X] Update base engine to 5.3.0 for navite apple silicon supoort for lumen and nanite.
 - [X] Add support for FSR 3 for Unreal Engine 5.4.4.
+- [X] Add support for FSR 3 frame generation.
 - [X] Reloading System.
 - [X] Shoulder Switching System.
 - [X] Objectives System & Win Condition.
