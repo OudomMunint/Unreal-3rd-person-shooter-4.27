@@ -51,12 +51,13 @@ void AAGlobalIlluminationManager::ApplyGISettings(int32 GiQualityLevel)
     else if (GiQualityLevel == 0)
     {
         IConsoleManager::Get().FindConsoleVariable(TEXT("r.SSGI.Quality"))->Set(0);
+        IConsoleManager::Get().FindConsoleVariable(TEXT("r.DynamicGlobalIlluminationMethod"))->Set(0);
+        UE_LOG(LogTemp, Warning, TEXT("Dynamic GI Disabled"));
     }
     else if (GiQualityLevel > 1)
     {
         IConsoleManager::Get().FindConsoleVariable(TEXT("r.DynamicGlobalIlluminationMethod"))->Set(1);
         IConsoleManager::Get().FindConsoleVariable(TEXT("r.ReflectionMethod"))->Set(1);
-
         UE_LOG(LogTemp, Warning, TEXT("Lumen GI & Reflections is enabled"));
     }
 }
