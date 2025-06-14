@@ -38,6 +38,7 @@
 
 ## Graphics
 - AMD FSR 3.1.1 upscaling
+- AMD FSR 3 frame generation
 - UE5 TSR & TAAU
 - Lumen GI & Reflections
 - SSGI & SSR fallbacks
@@ -115,6 +116,7 @@ for more info on requirements for UE5 rendering features on macOS.
 > FSR 3 requires a Polaris (RX 5XX) GPU or newer for AMD and Pascal (GTX 10XX) GPU or newer for Nvidia. <br>
 > FSR 3 implementation in this project is consist of the upscaling component, no frame generation. <br>
 > Currently FSR 3 is only available for Windows builds, macOS would still have TSR.
+> FSR 3 frame generation is not available for macOS yet. <br>
 
 > [!TIP]
 > Options for FSR 3 are available in the graphics settings for windows builds.
@@ -162,8 +164,8 @@ for more info on requirements for UE5 rendering features on macOS.
   After downloading, extract the zip file and run the executable (Might need to run as admin).
   If you're on macOS, you might need to allow the app to run in `System Preferences > Security & Privacy` On Windows, you might need to allow the app to run when prompted by Windows Security.
 - <b>v1.0 (Deprecated) Windows_x86_64:</b> <a href="https://www.dropbox.com/sh/iaq1bsasgaz5znd/AABZkdeA_N6LC4kTpRVe0Af3a?dl=1">Download here</a>
-- <b>v2.2.2 Windows_x86_64:</b> <a href="https://www.dropbox.com/scl/fi/ge4axmbig7k51lupxdmoo/TPS-2.2.2-win_x86_64.zip?rlkey=1xt73js4cpto6v2hasndm6319&st=13n8o83c&dl=0">Download here</a>
-- <b>v2.2.2 macOS (Intel & Apple Silicon):</b> <a href="https://www.dropbox.com/scl/fi/cfedh1oo6f2l02rzw66dc/TPS-2.2.2-macOS.zip?rlkey=4aj4zfqzk5q5fzg0l4l48br75&st=wt7a457k&dl=0">Download here</a>
+- <b>v2.2.3 Windows_x86_64:</b> <a href="https://www.dropbox.com/scl/fi/mpngt52mmitl309b69kmc/TPS-x86_64-v2.2.3.zip?rlkey=71mqs86tny63nobj016kinwsq&st=bcusudok&dl=0">Download here</a>
+- <b>v2.2.3 macOS (Intel & Apple Silicon):</b> <a href="https://www.dropbox.com/scl/fi/ny5v26pwtr7c80hu82rve/TPS-arm64-2.2.3.zip?rlkey=eou1td6l3w4fimq95oug6h2bx&st=qqq7al04&dl=0">Download here</a>
 
 > [!NOTE]  
 > FSR 2 is only available on Windows v1.0 build. <br>
@@ -180,6 +182,7 @@ for more info on requirements for UE5 rendering features on macOS.
 - [X] Update base engine to 5.2.0 for native apple silicon support.
 - [X] Update base engine to 5.3.0 for navite apple silicon supoort for lumen and nanite.
 - [X] Add support for FSR 3 for Unreal Engine 5.4.4.
+- [X] Add support for FSR 3 frame generation.
 - [X] Reloading System.
 - [X] Shoulder Switching System.
 - [X] Objectives System & Win Condition.
